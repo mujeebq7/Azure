@@ -31,3 +31,17 @@ az vm list-sizes \
   --location centralindia \
   -o table
   ```
+
+Select the appropriate subscription
+```bash
+az account set --subscription "<SUBSCRIPTION_ID>"
+```
+
+----
+What you should understand:
+- A user can have access to multiple subscriptions.
+- Azure CLI operates against the currently selected subscription.
+- A successful login does not guarantee permission to create resources.
+- Always verify your subscription before running provisioning commands.
+
+Official reference: https://learn.microsoft.com/en-us/cli/azure/get-started-tutorial-1-prepare-environment?view=azure-cli-latest&utm_source=chatgpt.com
