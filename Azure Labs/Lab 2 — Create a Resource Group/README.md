@@ -21,3 +21,12 @@ Name             Location
 ---------------  -------------
 rg-lab    centralindia
 ```
+----
+
+Question: 
+
+Why would an organization separate production and development resources into different resource groups or subscriptions?
+
+Expected answer: 
+
+Isolation, access control, resource lifecycle management, cost attribution, and governance. Subscription separation may provide stronger billing and security boundaries.
